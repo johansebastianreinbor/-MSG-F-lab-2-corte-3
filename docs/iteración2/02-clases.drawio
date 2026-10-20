@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="MSGF" version="24.7.17" type="device" compressed="false">
+  <diagram name="MSGF · Modelo de clases · Iteración 2" id="MSGF-·-Modelo-de-clases-·-Iteración-2">
+    <mxGraphModel dx="1600" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1550" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2" value="MSGF · Modelo de clases · Iteración 2" style="text;html=0;fontSize=24;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30" y="15" width="1840" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="100" width="290" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="«abstracta» Activo" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="n3">
+          <mxGeometry x="0" y="0" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="# numero: String&#10;# valor: Decimal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n3">
+          <mxGeometry x="0" y="40" width="290" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="+ consultarValor(): Decimal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n3">
+          <mxGeometry x="0" y="102" width="290" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="320" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="Hipoteca" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="n7">
+          <mxGeometry x="0" y="0" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="- pareja: String&#10;- valorInicial: Decimal&#10;- fecha: Date&#10;- ingresoSemanal: Decimal&#10;- saldo: Decimal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n7">
+          <mxGeometry x="0" y="40" width="320" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="+ registrarCuota(valor: Decimal)&#10;+ calcularSubsidio(): Decimal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n7">
+          <mxGeometry x="0" y="168" width="320" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="410" width="330" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="Inversión" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="n11">
+          <mxGeometry x="0" y="0" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="- fecha: Date&#10;- tasaInteres: Decimal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n11">
+          <mxGeometry x="0" y="40" width="330" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="+ registrarRendimiento(valor: Decimal)&#10;+ retirarDinero(valor: Decimal)" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n11">
+          <mxGeometry x="0" y="102" width="330" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="100" width="350" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="MSGF" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="n15">
+          <mxGeometry x="0" y="0" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="- ingresos: Decimal&#10;- gastos: Decimal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n15">
+          <mxGeometry x="0" y="40" width="350" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="+ calcularFondos(): Decimal&#10;+ gestionarHipotecas()&#10;+ gestionarInversiones()&#10;+ generarReporteSemanal()" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n15">
+          <mxGeometry x="0" y="102" width="350" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" value="" edge="1" parent="1" source="n7" target="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=12;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;endArrow=block;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e20" value="" edge="1" parent="1" source="n11" target="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=12;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;endArrow=block;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" value="1 administra 0..*" edge="1" parent="1" source="n15" target="n3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=12;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;endArrow=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="760" width="330" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="CuotaHipotecaria" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="n22">
+          <mxGeometry x="0" y="0" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="- fecha: Date&#10;- valorPagado: Decimal&#10;- subsidio: Decimal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n22">
+          <mxGeometry x="0" y="40" width="330" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="+ registrarPago()" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n22">
+          <mxGeometry x="0" y="124" width="330" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="e26" value="1 contiene 0..*" edge="1" parent="1" source="n7" target="n22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=12;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;startArrow=diamond;startFill=1;endArrow=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="Activo generaliza Hipoteca e Inversión.&#10;Los reportes son resultados calculados, no entidades persistentes.&#10;Los atributos y operaciones detallan el modelo inicial de las notas." style="shape=note;whiteSpace=wrap;html=0;size=20;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="490" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1120" width="310" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="AporteAnualBecas" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="n28">
+          <mxGeometry x="0" y="0" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="- anio: Integer&#10;- monto: Decimal&#10;- saldoDisponible: Decimal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n28">
+          <mxGeometry x="0" y="40" width="310" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="+ reservar(monto: Decimal)&#10;+ consultarSaldo(): Decimal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n28">
+          <mxGeometry x="0" y="124" width="310" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1020" width="340" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="BecaCrédito" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="n32">
+          <mxGeometry x="0" y="0" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="- id: String&#10;- semestre: String&#10;- costoMatricula: Decimal&#10;- estado: EstadoBeca&#10;- saldoPorDevolver: Decimal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n32">
+          <mxGeometry x="0" y="40" width="340" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" value="+ otorgar()&#10;+ registrarNotas()&#10;+ resolverEvaluacion()&#10;+ registrarDevolucion(valor: Decimal)" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n32">
+          <mxGeometry x="0" y="168" width="340" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="900" width="300" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="n37" value="Estudiante" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="n36">
+          <mxGeometry x="0" y="0" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" value="- documento: String&#10;- nombre: String" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n36">
+          <mxGeometry x="0" y="40" width="300" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" value="+ consultarBecas()" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n36">
+          <mxGeometry x="0" y="102" width="300" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="n40" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1190" width="300" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="n41" value="RegistroNotas" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="n40">
+          <mxGeometry x="0" y="0" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n42" value="- semestre: String&#10;- notas: Decimal [1..*]&#10;- fechaPresentacion: Date" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n40">
+          <mxGeometry x="0" y="40" width="300" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="n43" value="+ validar()" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n40">
+          <mxGeometry x="0" y="124" width="300" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="n44" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="1190" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n45" value="PolíticaAcadémica" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="n44">
+          <mxGeometry x="0" y="0" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n46" value="- criterioCondonacion: String" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n44">
+          <mxGeometry x="0" y="40" width="320" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n47" value="+ cumple(notas: RegistroNotas): Boolean" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=13;fontStyle=0;align=left;spacingLeft=10;" vertex="1" parent="n44">
+          <mxGeometry x="0" y="95" width="320" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="e48" value="1 administra 0..*" edge="1" parent="1" source="n15" target="n28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=12;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1740" y="80" />
+              <mxPoint x="1740" y="730" />
+              <mxPoint x="30" y="730" />
+              <mxPoint x="30" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e49" value="1 financia 0..*" edge="1" parent="1" source="n28" target="n32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=12;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;endArrow=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e50" value="1 recibe 0..*" edge="1" parent="1" source="n36" target="n32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=12;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;endArrow=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e51" value="1 contiene 0..1" edge="1" parent="1" source="n32" target="n40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=12;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;startArrow=diamond;startFill=1;endArrow=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e52" value="usa para resolver" edge="1" parent="1" source="n32" target="n44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=12;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="1460" />
+              <mxPoint x="1670" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n53" value="BecaCrédito representa un otorgamiento semestral. Un estudiante puede recibir varios.&#10;El aporte anual financia los otorgamientos del año; no se mezcla automáticamente con los fondos hipotecarios.&#10;El umbral de condonación y los plazos de devolución están pendientes de definición." style="shape=note;whiteSpace=wrap;html=0;size=20;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="650" width="600" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="MSGF" version="24.7.17" type="device" compressed="false">
+  <diagram name="MSGF · Clases límite y control · Iteración 1" id="MSGF-·-Clases-límite-y-control-·-Iteración-1">
+    <mxGraphModel dx="1600" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2" value="MSGF · Clases límite y control · Iteración 1" style="text;html=0;fontSize=24;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30" y="15" width="1540" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Empleado" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="55" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="«boundary»&#10;InterfazUsuarioMSGF&#10;&#10;mostrarMenú()&#10;capturarDatos()&#10;mostrarResultados()" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="330" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="«control»&#10;GestorMSGF&#10;&#10;coordinarOperaciones()&#10;calcularFondos()&#10;generarReporteSemanal()" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="760" y="130" width="350" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" value="" edge="1" parent="1" source="n3" target="n4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=12;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;endArrow=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" value="solicita operación" edge="1" parent="1" source="n4" target="n5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=12;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="«entity»&#10;Hipoteca" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="650" y="490" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="«entity»&#10;Inversión" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="490" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" value="consulta / actualiza" edge="1" parent="1" source="n5" target="n8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=12;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="consulta / actualiza" edge="1" parent="1" source="n5" target="n9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;fontSize=12;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="Límite: interacción con el empleado, entrada y salida de datos.&#10;Control: coordina casos de uso y cálculos.&#10;Entidad: información persistente del dominio.&#10;Las flechas muestran solicitudes; no representan herencia." style="shape=note;whiteSpace=wrap;html=0;size=20;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="70" y="670" width="600" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
